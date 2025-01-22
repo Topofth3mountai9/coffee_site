@@ -109,7 +109,7 @@ function Menu() {
         <MenuContent className="grid g_6 align_middle align_horizontal">
           <MenuLeft className="flex_items flex_column">
             <Section_header h3="Discover" h2="our menu" />
-            <p className="paragraph text_xs">
+            <p className="paragraph text_small">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               accusantium vitae fugiat perferendis. Inventore rem debitis
               consequatur dolorum voluptatum. Repudiandae?{' '}

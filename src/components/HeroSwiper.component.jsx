@@ -41,6 +41,7 @@ const HeroTextWrapper = styled.div`
 
   ${respond_to('600px')} {
     max-width: 80%;
+    margin-top: 20rem !important;
   }
 `;
 
@@ -60,6 +61,7 @@ const Subtitle = styled.p`
   margin-block: 3rem 2.5rem;
   max-width: 70%;
   margin-inline: auto;
+  /* font-size: ${({ theme }) => theme.typography.text.small}; */
 `;
 
 const ButtonsContainer = styled.div`
@@ -76,7 +78,7 @@ function HeroSwiper() {
           <HeroTextWrapper className="flex_items flex_column">
             <HeroWelcome className="text_primary">Welcome</HeroWelcome>
             <Title>{title}</Title>
-            <Subtitle className="text_tiny">{subtitle}</Subtitle>
+            <Subtitle className="text_small">{subtitle}</Subtitle>
             <ButtonsContainer className="flex_items align_middle align_horizontal g_1">
               <Button type="primary" square={true} size="big">
                 Order Now
@@ -93,9 +95,9 @@ function HeroSwiper() {
   return (
     <Swiper
       modules={[Autoplay, Navigation, Pagination]}
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 5000000000000000000000 }}
       // navigation
-      loop
+      // loop
       pagination={{ clickable: true }}
     >
       {hero_slide_elements}

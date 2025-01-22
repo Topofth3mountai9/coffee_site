@@ -7,7 +7,7 @@ import { respond_to } from '../helpers/breakpoints';
 
 const TestimonialsContainer = styled.section`
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   /* margin-bottom: 4rem; */
 
   .container {
@@ -17,7 +17,14 @@ const TestimonialsContainer = styled.section`
   }
 
   ${respond_to('900px')} {
-    height: 50vh;
+    /* height: 50vh; */
+  }
+  ${respond_to('450px')} {
+    min-height: 70vh;
+  }
+
+  @media all and (width >= 1100px) {
+    min-height: 100vh;
   }
 `;
 
@@ -37,7 +44,7 @@ function Testimonials() {
       <OurContainer other_class="container">
         <TestimonialsContent>
           <Section_header h3="testimony" h2="customers say" />
-          <p className="paragraph text_xs ">
+          <p className="paragraph text_tiny ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
             doloribus qui nemo earum perspiciatis fugiat quae a numquam
             quibusdam asperiores.

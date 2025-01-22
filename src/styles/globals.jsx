@@ -34,6 +34,7 @@ html {
   }
   @media all and (width <= 450px) {
     font-size: 37%;
+    /* font-size: 40%; */
   }
 }
 
@@ -570,7 +571,8 @@ input {
   // border: none;
   color: ${theme.colors.grey[0]};
   width: 100%;
-  font-size: ${theme.typography.text.tiny};
+  /* font-size: ${theme.typography.text.tiny}; */
+  font-size: ${theme.typography.text.small};
   // font-size: 1.33rem;
 }
 
@@ -600,7 +602,8 @@ input::placeholder {
   /* color: ${theme.colors.grey.light}; */
   color: ${theme.colors.grey[0]};
   letter-spacing: 0.1rem;
-  font-size: ${({ theme }) => theme.typography.text.xs};
+  /* font-size: ${({ theme }) => theme.typography.text.xs}; */
+  font-size: ${({ theme }) => theme.typography.text.small};
 
 }
 

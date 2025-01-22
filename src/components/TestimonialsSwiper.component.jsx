@@ -79,7 +79,9 @@ const TestimonialInfo = styled.div`
   position: relative;
 
   p {
-    font-size: ${({ theme }) => theme.typography.text.xs};
+    font-size: ${({ theme }) => theme.typography.text.tiny};
+    font-weight: 600;
+    line-height: 1.7;
     /* color: ${({ theme }) => theme.colors.black.black_500}; */
     margin-bottom: 2rem;
     width: 70%;
@@ -122,7 +124,7 @@ const TestimonialInfo = styled.div`
 
     p {
       font-size: ${({ theme }) => theme.typography.text.small} !important;
-      font-weight: 500;
+      font-weight: 600;
       width: 100%;
       margin-bottom: 1rem;
     }

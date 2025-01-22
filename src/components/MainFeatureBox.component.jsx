@@ -88,7 +88,7 @@ function MainFeatureBox() {
       >
         <StyledIcon>{icon}</StyledIcon>
         <h5 className="title">{title}</h5>
-        <p className="text_xs">{paragraph}</p>
+        <p className="text_tiny">{paragraph}</p>
       </FeatureBoxContainer>
     );
   });

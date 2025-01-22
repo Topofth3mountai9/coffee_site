@@ -71,8 +71,8 @@ function Info() {
       <BoxInfoContainer key={id} className="flex_items align_m g_1">
         <StyledIcon>{icon}</StyledIcon>
         <BoxInfo>
-          <span className="more_info text_xs">{more_info}</span>
-          <p className="paragraph text_xxs">{paragraph}</p>
+          <span className="more_info text_x text_tiny">{more_info}</span>
+          <p className="paragraph text_x text_xs">{paragraph}</p>
         </BoxInfo>
       </BoxInfoContainer>
     );

@@ -10,7 +10,7 @@ import Stats from './components/Stats.component';
 import Testimonials from './components/Testimonials.component';
 import Contact from './components/Contact.component';
 import Footer from './components/Footer.component';
-
+import Some_tabs from './components/some_tabs';
 const AppContainer = styled.div``;
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <AppContainer>
-        {/* <NavBar /> */}
+        <NavBar />
         <Nav_and_hero />
         {/* <Hero /> */}
         <Info />
@@ -27,6 +27,7 @@ function App() {
         <Stats />
         <Testimonials />
         <Contact />
+        {/* <Some_tabs /> */}
         <Footer />
       </AppContainer>
     </ThemeProvider>

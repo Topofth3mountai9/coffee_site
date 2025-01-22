@@ -59,16 +59,24 @@ const ContactFormContainer = styled.div`
 
   ${respond_to('900px')} {
     width: 100%;
+    /* margin-top: 25rem; */
 
     .custom_input_field {
       width: 30rem;
     }
   }
-  ${respond_to('900px')} {
+  ${respond_to('600px')} {
     width: 100%;
 
     .custom_input_field {
-      /* width: 25rem; */
+      width: 45rem;
+    }
+  }
+  ${respond_to('450px')} {
+    width: 100%;
+
+    .custom_input_field {
+      width: 30rem;
     }
   }
 `;
@@ -89,7 +97,7 @@ const FormContainer = styled.div`
     align-self: end;
   }
 
-  ${respond_to('450px')} {
+  ${respond_to('600px')} {
     grid-template-columns: 1fr;
   }
 `;

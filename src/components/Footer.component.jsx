@@ -21,7 +21,7 @@ const FooterContent = styled.div`
 
 function Footer() {
   return (
-    <FooterContainer className="bg_dark flex_items align_middle align_horizontal">
+    <FooterContainer className="bg_dark flex_items align_middle align_horizontal mt">
       {/* <OurContainer> */}
       <FooterContent>
         <p className="text_xs">
